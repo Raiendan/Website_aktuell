@@ -37,15 +37,32 @@ width: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
 
-
-
+@media only screen and (min-width: 1280px){
+.maydivlogo{
+    
+       position: absolute;
+    
+    right: 0px;
+    }
  
-
-body .logo{
+.logohide{
+  
+   position: absolute;
+    top: 10px;
+   left:10px;
+    width: 200px;
+    height: 203px;
+    background-image: url(/img/kon.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+ }  
+    
+}
+.logo{
   
    
     margin:auto;
-    
+   
     width: 300px;
     height: 303px;
     
@@ -107,8 +124,39 @@ if it's not present, don't show loader */
 }
 
 
+@media only screen and (min-width: 560px) {
 
+.frontvideo{
+    
+    text-align: center;
+    
+}
 
+.youtube {
+    margin-top: 40px; 
+  max-width: 560px;
+    min-width: 300px;
+    transition: 2s;
+    opacity: 0.7;
+    
+}
+
+.youtube:hover{
+    
+    opacity: 1;
+    
+    
+}
+    }
+
+@media only screen and (max-width: 600px) {
+    
+    .frontvideo{
+        
+        display:none;
+    }
+    
+}
 
 /* ----- !! RESP BACKGROUND !! ----- *//* ----- !! RESP BACKGROUND !! ----- */
 /* ----- !! RESP BACKGROUND !! ----- *//* ----- !! RESP BACKGROUND !! ----- */ 
@@ -117,16 +165,18 @@ if it's not present, don't show loader */
 
 @media only screen and (min-width: 1900px) {
 body {
- 
-    background-image:url(/img/nat2k.jpg);
-  background-size:cover;
-    background-repeat: no-repeat;
+ background: url(/img/nat2k.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
     overflow:auto;
      font-family: "OpenSans-Regular.ttf";
     
     margin: 0;
     height: 100%;
-   
+   width: 100%;
 
   }
     
@@ -143,16 +193,18 @@ body {
 @media only screen and (max-width:1899px) {
 @media only screen and (min-width: 1300px) {
 body {
- 
-    background-image:url(/img/natfullhd.jpg);
-  background-size:cover;
-    background-repeat: no-repeat;
+ background: url(/img/natfullhd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ position: fixed;
     overflow:auto;
      font-family: "OpenSans-Regular.ttf";
     
     margin: 0;
     height: 100%;
-   
+   width: 100%;
 
   }
 }
@@ -161,16 +213,18 @@ body {
 @media only screen and (max-width:1299px) {
 @media only screen and (min-width: 700px) {
 body {
- 
-    background-image:url(/img/nathd.jpg);
-  background-size:cover;
-    background-repeat: no-repeat;
+ background: url(/img/nathd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+position: fixed;
     overflow:auto;
-     font-family: "OpenSans-Regular.ttf";
+    font-family: "OpenSans-Regular.ttf";
     
     margin: 0;
     height: 100%;
-   
+   width: 100%;
 
   }
 }
@@ -180,16 +234,18 @@ body {
 @media only screen and (max-width:699px) {
 @media only screen and (min-width:1px) {
 body {
- 
-    background-image:url(/img/natmo.jpg);
-  background-size:cover;
-    background-repeat: no-repeat;
+ background: url(/img/natmo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+position: fixed;
     overflow:auto;
      font-family: "OpenSans-Regular.ttf";
     
     margin: 0;
     height: 100%;
-   
+   width: 100%;
 
   }
 }

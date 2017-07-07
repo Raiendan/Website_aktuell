@@ -9,15 +9,26 @@
     top: 5%;
     transform: translateY(-50%);
     left: 50%;
-    transform: translateX(-50%);  
+    transform: translateX(-50%); 
+       text-align: center;
+    
     }
 
+
+@media only screen and (min-width: 601px) {
+    
+    .mydivshow{
+        
+        width: 560px;
+    }
+    
+}
 
 .mydivhide {
     top:0;
     position:fixed;
     text-align: center;
-    font-family: "OpenSans-Regular.ttf";
+    
     background-image: linear-gradient( 
                                         360deg,
                                         hsla(0, 0%, 100%, 0) 1%,
@@ -128,6 +139,7 @@ nav {
     background-color: white;
     opacity:0.95;
     overflow: auto;
+    text-align: left;
     
 );
     z-index: 1500;
@@ -278,11 +290,11 @@ code {
    hsla(0, 0%, 100%, 0) 1%,
    hsl(0, 0%, 100%) 50%
 );
-    width: auto;
+    width: 60%;
     height: 100%;
     z-index: 99;
-    left: 23%;
-    right: 23%;
+    left: 20%;
+    
     overflow-x: hidden;
     overflow: auto;
     
@@ -294,6 +306,35 @@ code {
 /* ----- !! NAVIGATION PC !! ----- *//* ----- !! NAVIGATION PC !! ----- */
 /* ----- !! NAVIGATION PC !! ----- *//* ----- !! NAVIGATION PC !! ----- */
 /* ----- !! NAVIGATION PC !! ----- *//* ----- !! NAVIGATION PC !! ----- */
+
+
+
+.galerienav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -- Navi PC links --*/
 
